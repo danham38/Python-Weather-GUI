@@ -1,6 +1,6 @@
 # Weather CLI Project
 
-A small Python command-line weather tool that validates coordinates, fetches current weather from the Open-Meteo API, formats the result, and caches recent responses.
+A Python command-line weather tool that validates coordinates, fetches current weather from the Open-Meteo API, formats the result, and caches recent responses.
 
 ## Features
 
@@ -108,10 +108,4 @@ weather-cli --lat 51.5072 --lon -0.1276 --no-cache
 pytest
 ```
 
-## Notes
 
-The package folder is deliberately named `weather_cli`, not `weather-cli`. Python packages should use valid identifier names, so underscores are safer than hyphens for imports such as:
-
-```python
-from weather_cli.errors import validate_latitude
-```
