@@ -1,5 +1,6 @@
 # Weather CLI Project
 
+
 A Python command-line weather tool that validates coordinates, fetches current weather from the Open-Meteo API, formats the result, and caches recent responses.
 
 ## Features
